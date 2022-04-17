@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/angelofpc.github.io/static/css/main.e6c13ad2.css",
+    "main.js": "/angelofpc.github.io/static/js/main.b68a16ae.js",
+    "static/js/787.6a622a19.chunk.js": "/angelofpc.github.io/static/js/787.6a622a19.chunk.js",
+    "static/media/ace_bitmoji.png": "/angelofpc.github.io/static/media/ace_bitmoji.368c26fe6749e74a8765.png",
+    "static/media/AceOluwapelumiNameLogoWhite.png": "/angelofpc.github.io/static/media/AceOluwapelumiNameLogoWhite.706e8c2e5b09e4e795b9.png",
+    "index.html": "/angelofpc.github.io/index.html",
+    "main.e6c13ad2.css.map": "/angelofpc.github.io/static/css/main.e6c13ad2.css.map",
+    "main.b68a16ae.js.map": "/angelofpc.github.io/static/js/main.b68a16ae.js.map",
+    "787.6a622a19.chunk.js.map": "/angelofpc.github.io/static/js/787.6a622a19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b68a16ae.js"
+  ]
+}
