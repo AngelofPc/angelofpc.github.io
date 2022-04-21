@@ -6,10 +6,19 @@ import { getColor, lighten, mode } from '@chakra-ui/theme-tools';
 const theme = extendTheme({
   colors: {
     primary: {
-      400: '#cc100f',
+      400: '#e63946',
+      // 400: '#cc100f',
     },
     secondary: {
-      400: '#2b40d1',
+      400: '#1d3557',
+      900: '#05090f',
+      // 400: '#2b40d1',
+    },
+    honeydew: {
+      400: '#f1faee',
+    },
+    powderblue: {
+      400: '#a8dadc',
     },
   },
   components: {

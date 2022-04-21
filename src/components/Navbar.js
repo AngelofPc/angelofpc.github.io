@@ -28,6 +28,7 @@ import {
 } from '@chakra-ui/icons';
 
 import AceLogoDark from '../../src/assets/images/png/AceOluwapelumiNameLogoWhite.png';
+import AceLogoWhite from '../../src/assets/images/png/AceOluwapelumiNameLogoBlack.png';
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -61,7 +62,13 @@ export default function Navbar() {
           />
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-          <Image h={8} objectFit="cover" src={AceLogoDark} />
+          <Link h={10}>
+            <Image
+              h={'100%'}
+              objectFit="cover"
+              src={colorMode === 'light' ? AceLogoDark : AceLogoWhite}
+            />
+          </Link>
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'center' }}>
             <Flex display={{ base: 'none', md: 'flex' }}>
               <DesktopNav />
@@ -110,10 +117,10 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue('white', 'gray.800');
 
   return (
-    <Stack direction={'row'} spacing={4}>
+    <Stack align="center" direction={'row'} spacing={4}>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
-          <Popover trigger={'hover'} placement={'bottom-start'}>
+          <Popover trigger={'hover'} placement={'center-start'}>
             <PopoverTrigger>
               <Link
                 p={2}
