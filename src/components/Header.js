@@ -52,7 +52,7 @@ export default function Header() {
                   zIndex: -1,
                 }}
               >
-                Hi!
+                Howdy!
               </Text>
               <br />
               <Text as={'span'} color={'primary.400'}>
